@@ -246,7 +246,6 @@
             NSDictionary * dict = [XDFMDBProperty getSQLDictionary:[object class]];
             while ([resultSet next]) {
                id objc = [[[object class] alloc]init];
-                // 默认第0个元素为表格主键 所以元素从第一个开始
                 // 使用KVC完成赋值
                 for ( int i = 0; i < arr.count; i++) {
                     
