@@ -1,0 +1,17 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - Protobuf (3.2.1)
+
+DEPENDENCIES:
+  - FMDB
+  - Protobuf
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  Protobuf: 2ccbaf193f6c65adc67745453ca0c13234c32796
+
+PODFILE CHECKSUM: db398e35ccad5b21e48ffe3b92f0581e1d2d2809
+
+COCOAPODS: 1.2.0
